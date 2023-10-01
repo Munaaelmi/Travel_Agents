@@ -1,0 +1,212 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.header{
+    background: red;
+    width: 100%;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 17px;
+    font-size: 14px;
+}
+.logo img{
+    position: absolute;
+    margin: 10px auto;
+    max-width: 170px;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+.banner{
+    position: relative;
+}
+.river-des{
+    position: absolute;
+    text-align: center;
+    top: 29%;
+    left: 25%;
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: lighter
+}
+.river-des h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+.deals-title{
+    background: red;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+.deal-des{
+    text-align: center;
+    color: #424141;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.destination{
+    border: 1px solid grey;
+    margin: 5px;
+    color: grey;
+}
+.title a{
+    text-decoration: none;
+    color: #042E5D;
+    font-weight: bold;
+    font-size: 18px;
+}
+.title a:hover{
+    color: grey;
+}
+section p{
+    margin: 10px;
+}
+.country{
+    text-align: center;
+}
+.view a{
+    text-decoration: none;
+    background: red;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+}
+.view a:hover{
+    background: grey;
+}
+.container a{
+    text-align: center;
+}
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.price{
+    text-align: right;
+    margin: 5px;
+}
+span{
+    color: #5e5e60;
+    font-weight: bold;
+}
+.ideas-title{
+    color: red;
+    border: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.ideas-des{
+    color: #5e5e60;
+    font-size: 16px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.hol-types img{
+    width: 100%;
+    display: block;
+}
+
+.hol-types{
+    margin: 5px;
+    color: grey;
+    text-align: center;
+}
+.hol-title {
+    color: red;
+    background: #000;
+    border: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+figcaption{
+    background-color: #424141;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+footer{
+    background: #424141;
+    height: 400px;
+}
+footer img{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #5e5e60;
+    line-height: 2;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newsletter{
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+input{
+    background-color: red;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 16px;
+    color: #fff;
+}
+.copyright{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+h4{
+    color: #fff;
+    font-weight: 500;
+}
+/* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+  
